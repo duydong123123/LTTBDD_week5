@@ -13,15 +13,12 @@ const ProductCard = () => {
                 <Text style={styles.ratingText}>★★★★★</Text>
                 <Text style={styles.reviewCount}>(Xem 828 đánh giá)</Text>
             </View>
-            <View style={styles.priceContainer}>
+            <View style={styles.priceContainer}>s
                 <Text style={styles.currentPrice}>1.790.000 đ</Text>
                 <Text style={styles.oldPrice}>1.790.000 đ</Text>
             </View>
-            
-            {/* "Ở đâu rẻ hơn hoàn tiền" căn trái */}
             <Text style={styles.priceGuarantee}>Ở đâu rẻ hơn hoàn tiền</Text>
 
-            {/* "4 MÀU - CHỌN MÀU" căn giữa */}
             <TouchableOpacity style={styles.colorSelector}>
                 <Text style={styles.colorSelectorText}>4 MÀU - CHỌN MÀU</Text>
                 <Text style={styles.arrow}> > </Text>
